@@ -1,0 +1,41 @@
+Phi Lam ()
+
+implemented handling missing data via removing instances with those
+
+implemented own tree via nested dictionaries
+
+ran on playTennis during development
+
+data:
+breast cancer classification - recurrance vs no recurraces.
+congressionaul house votes - classifies political party
+
+breast cancer (286 instances, 9 features)
+congressional (16 features, 435 instances)
+
+breast cancer accuracy : 98.3/73.9 (9 removed, 275 remaining)
+congressional accuracy : 92.2/93.5 (203 removed, 232 remaining)
+
+tested recursively using list of choices for instances
+
+
+
+
+Alisa Hawthorne()
+
+Census Income dataset (Adult-data) (15 col, 48k instances)
+Internet advertisements (classified ads based on pixel values) 
+   * (1.6k cols, 3.2k instances)
+
+
+used missing values as a classifier/value
+
+handled continuous values by splitting in middle.
+splits until pure buckets.
+
+used array structure to simulate tree parsing, with each index determining an attribute.
+test cases parse full tree to find pure buckets. (no children concept?)
+
+
+census income accuracy: 75.91/76.37
+Internet advertisement accuracy: 96.53/89.2
